@@ -1,0 +1,5 @@
+sitemap:
+    root: index
+    page:
+        - path: index
+          title: Home
