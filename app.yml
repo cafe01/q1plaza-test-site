@@ -1,8 +1,29 @@
+description: K1Plaza test site
 sitemap:
-    root: index
-    page:
-        - path: index
-          title: Home
+  root: index
+  page:
+    - path: index
+      title: Home
+    - path: gallery
+      title: Gallery
+    - path: expo
+      title: Expo
+    - path: blog
+      title: Blog
+      widget_args: blog
+
+widgets:
+  Gallery:
+    slider:
+      title: Slider
+  Blog:
+    blog:
+      title: Blog
+      page_path: blog
+  Expo:
+    expo:
+      title: Expo
+      page_path: expo
 # foo
 # foo
 # foo
