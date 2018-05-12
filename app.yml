@@ -1,16 +1,6 @@
 description: K1Plaza test site
-sitemap:
-  root: index
-  page:
-    - path: index
-      title: Home
-    - path: gallery
-      title: Gallery
-    - path: expo
-      title: Expo
-    - path: blog
-      title: Blog
-      widget_args: blog
+
+
 
 widgets:
   Gallery:

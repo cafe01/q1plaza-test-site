@@ -1,25 +1,16 @@
+<x-meta title="Gallery" />
 
 <x-wrap>
     <h1>Gallery Example</h1>
 
-    <h2>Rendered</h2>
 
-    <script data-plift-script>
-        $('#source').text('foo');
-    </script>
-
-    <x-gallery name="slider">
+    <x-gallery name="slider" fixtures="6 sunny day">
 
         <div class="media-item">
-            <img class="media-image" width="150" height="150">
+            <img class="media-image d-block mw-100" width="1200" height="150">
         </div>
 
     </x-gallery>
 
-
-
-    <h2>Source</h2>
-
-    <pre id="#source"></pre>
 
 </x-wrap>
